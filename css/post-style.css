@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Amiri';
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-top: black 1px solid;
+    border-bottom: black 2px solid;
+
+}
+#logo{
+    height: 120px;
+  
+}
+#header{
+    text-align: center;
+}
+
+#nav-bar ul li a{
+   margin:0px 100px;
+   padding-left: 90px;
+   font-size: 30px;
+   font-weight: bold;
+   color: black;
+}
+
+#nav-bar ul li a:hover{
+   text-decoration: underline;
+}
+h1{
+    
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#post{
+    margin:50px;
+}
+
+p{
+    
+    font-size:28px;
+    text-align: right;
+}
+
+ol li{
+    font-size:28px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+#post a{
+    font-size:28px;
+    text-align: right;
+}
+#footer{
+    margin-top: 10px;
+    font-size:25px;
+    border-top: black solid 2px;
+    height: 50px;
+    
+    
+   }
+   #footer p {
+       margin: 0px 20px;
+       text-align: left;
+}
